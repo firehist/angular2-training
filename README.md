@@ -16,7 +16,11 @@ typings install
 npm start
 ```
 
-Then navigate your browser to http://localhost:3030 and use the app.
+Then open http://localhost:3030 in your favorite browser!
+
+# Slides
+Go there ;)
+https://firehist.github.io/angular2-training/#/
 
 ## Testing
 The test setup includes `webpack.test.config.js`, `spec-bundle.js`, and `karma.conf.js`. To run unit tests, execute `npm test` in your terminal.
