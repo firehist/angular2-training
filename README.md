@@ -19,8 +19,8 @@ npm start
 Then open http://localhost:3030 in your favorite browser!
 
 # Slides
-Go there ;)
-https://firehist.github.io/angular2-training/#/
+Slides are on the following links:
+Day 1: https://firehist.github.io/angular2-training/day-01/
 
 ## Testing
 The test setup includes `webpack.test.config.js`, `spec-bundle.js`, and `karma.conf.js`. To run unit tests, execute `npm test` in your terminal.
