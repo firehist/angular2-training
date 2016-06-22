@@ -21,8 +21,9 @@ Then open http://localhost:3030 in your favorite browser!
 # Slides
 Slides are on the following links:
 
-- Day 1: https://firehist.github.io/angular2-training/day-01.html
-- Day 2: https://firehist.github.io/angular2-training/day-02.html
+- Day 1: [html](https://firehist.github.io/angular2-training/day-01.html) [pdf](https://firehist.github.io/angular2-training/day-01.pdf)
+- Day 2: [html](https://firehist.github.io/angular2-training/day-02.html) [pdf](https://firehist.github.io/angular2-training/day-02.pdf)
+- Day 3: [html](https://firehist.github.io/angular2-training/day-03.html) [pdf](https://firehist.github.io/angular2-training/day-03.pdf)
 
 ## Testing
 The test setup includes `webpack.test.config.js`, `spec-bundle.js`, and `karma.conf.js`. To run unit tests, execute `npm test` in your terminal.
