@@ -1,8 +1,8 @@
-import {Component, Input} from '@angular/core';
-import {Experiment} from '../../common/experiment.model';
+import { Component, Input } from '@angular/core';
+import { Experiment } from '../../common/experiment.model';
 
 @Component({
-  selector: 'experiment',
+  selector: 'nat-experiment',
   template: require('./experiment.detail.component.html'),
   styles: [`
     .experiment {
