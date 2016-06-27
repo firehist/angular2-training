@@ -2,9 +2,10 @@ import "core-js"
 import "zone.js/dist/zone"
 
 import { bootstrap } from "@angular/platform-browser-dynamic"
-import { ROUTER_PROVIDERS } from "@angular/router"
+
+import { APP_ROUTES } from "./app.route"
 import { AppComponent } from "./app.component"
 
 bootstrap(AppComponent, [
-  ROUTER_PROVIDERS
+  APP_ROUTES
 ])
