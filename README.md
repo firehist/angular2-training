@@ -31,6 +31,7 @@ Slides are on the following links:
 - Day 3: [html](https://firehist.github.io/angular2-training/day-03.html) [pdf](https://firehist.github.io/angular2-training/day-03.pdf)
 - Day 4: [html](https://firehist.github.io/angular2-training/day-04.html) [pdf](https://firehist.github.io/angular2-training/day-04.pdf)
 - Day 5: [html](https://firehist.github.io/angular2-training/day-05.html) [pdf](https://firehist.github.io/angular2-training/day-05.pdf)
+- Day 6: [html](https://firehist.github.io/angular2-training/day-06.html) [pdf](https://firehist.github.io/angular2-training/day-06.pdf)
 
 ## Testing
 The test setup includes `webpack.test.config.js`, `spec-bundle.js`, and `karma.conf.js`. To run unit tests, execute `npm test` in your terminal.
