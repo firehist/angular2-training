@@ -13,7 +13,6 @@
   //map tells the System loader where to look for things
   var  map = {
     'app':                        'src',
-
     '@angular':                   'https://npmcdn.com/@angular', // sufficient if we didn't pin the version
     '@angular/router':            'https://npmcdn.com/@angular/router' + routerVer,
     '@angular/forms':             'https://npmcdn.com/@angular/forms' + formsVer,
@@ -22,6 +21,8 @@
     'rxjs':                       'https://npmcdn.com/rxjs@5.0.0-beta.6',
     'ts':                         'https://npmcdn.com/plugin-typescript@4.0.10/lib/plugin.js',
     'typescript':                 'https://npmcdn.com/typescript@1.9.0-dev.20160409/lib/typescript.js',
+    'jquery':                     'https://npmcdn.com/jquery@3.0.0',
+    'jquery-typeahead':           'https://npmcdn.com/jquery-typeahead/dist/jquery.typeahead.min.js',
   };
 
   //packages tells the System loader how to load when no filename and/or no extension
@@ -29,6 +30,8 @@
     'app':                        { main: 'main.ts',  defaultExtension: 'ts' },
     'rxjs':                       { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
+    'jquery':                     { defaultExtension: 'js' },
+    'jquery-typeahead':      { defaultExtension: 'js' },
   };
 
   var ngPackageNames = [
@@ -72,7 +75,11 @@
     meta: {
       'typescript': {
         "exports": "ts"
-      }
+      },
+      'jquery': {
+        format: 'global',
+        exports: 'jQuery'
+      },
     },
     map: map,
     packages: packages
