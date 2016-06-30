@@ -1,5 +1,5 @@
 var webpack = require('webpack'),
-    path = require('path');
+  path = require('path');
 
 function root(args) {
   args = Array.prototype.slice.call(arguments, 0);
@@ -9,9 +9,9 @@ function root(args) {
 module.exports = {
   devtool: 'source-map',
   debug: true,
-  entry: './app/boot.ts',
+  entry: './client/boot.ts',
   resolve: {
-    extensions: ['', '.ts', '.js', '.html']
+    extensions: ['', '.ts', '.js']
   },
   output: {
     path: './build',
@@ -23,7 +23,7 @@ module.exports = {
     ],
     loaders: [
       { test: /\.ts$/, loader: 'awesome-typescript-loader', exclude: [ /\.(spec|e2e)\.ts$/ ] },
-      { test: /\.(html|css)$/, loader: 'raw-loader' }
+      { test: /\.html$/, loader: 'raw' }
     ]
   },
   devServer: {

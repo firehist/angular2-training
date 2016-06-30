@@ -13,7 +13,7 @@
     "node_modules"
   ],
   "filesGlob": [
-    "app/**/*.ts",
+    "client/**/*.ts",
     "typings/index.d.ts"
   ],
   "atom": {

@@ -1,7 +1,7 @@
 require('core-js');
 require('zone.js');
 
-var testContext = require.context('./app', true, /\.spec\.ts/);
+var testContext = require.context('./client', true, /\.spec\.ts/);
 
 function requireAll(requireContext) {
   return requireContext.keys().map(requireContext);

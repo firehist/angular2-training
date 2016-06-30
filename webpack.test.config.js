@@ -1,5 +1,5 @@
 var webpack = require('webpack'),
-    path = require('path');
+  path = require('path');
 
 function root(args) {
   args = Array.prototype.slice.call(arguments, 0);
@@ -17,8 +17,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loader: "source-map-loader", exclude: [ root('node_modules/rxjs') ]},
-      { test: /\.ts$/, loader: 'awesome-typescript-loader' },
-      { test: /\.(html|css)$/, loader: 'raw-loader' }
+      { test: /\.ts$/, loader: 'awesome-typescript-loader' }
     ]
   }
 };
