@@ -23,6 +23,7 @@ import { ApiService } from './api.service'
   providers: [ ApiService ]
 })
 export class App {
+  users: IUser[]
   usersPromise: Promise<IUser[]>
   usersObservable: Observable<IUser[]>
 

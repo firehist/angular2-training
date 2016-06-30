@@ -9,7 +9,7 @@ import { TypeaheadDirective } from './typeahead.component'
     <hr>
     <input type="text" [(ngModel)]="myField" typeahead />
   `,
-  directives: [ MyDatetimepickerDirective ]
+  directives: [ TypeaheadDirective ]
 })
 export class App {
   myField: string
