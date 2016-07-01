@@ -23,6 +23,12 @@ Then open http://localhost:3030 in your favorite browser!
 - [hello-world](https://github.com/firehist/angular2-training/tree/hello-world)
 - [snippets](https://github.com/firehist/angular2-training/tree/snippets)
 
+# Links
+
+- http://blog.thoughtram.io/
+- http://victorsavkin.com/
+- https://egghead.io/
+
 # Slides
 Slides are on the following links:
 
