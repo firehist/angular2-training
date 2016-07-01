@@ -7,9 +7,32 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/4.1.0/rx.all.js"></script>
 <body>
 
+<h1>Testoprune</h1>
+
 <script>
   // Use Rx.Observable
+  var array = [
+    1000,//0 KO
+    100,//1   OK
+    800,//2   OK
+    700,//3 KO
+    300,//4 KO
+    600,//5 KO
+    500 //6   OK
+  ]
 
+  let source = Rx.Observable.for(array, (x) => Rx.Observable.timer(x))
+    .map((x, i) => i)
+    .debounce((x) => Rx.Observable.timer(700))
+
+  var subscription = source.subscribe(
+      x => console.log('Next: ' + x),
+      err => console.log('Error: ' + err),
+      () => console.log('Completed')
+  )
+  // => Next: 0
+  // => Next: 3
+  // => Completed
 
 </script>
 
